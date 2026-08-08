@@ -1,0 +1,87 @@
+category,skill_name
+Programming,python
+Programming,cplusplus
+Programming,csharp
+Programming,c
+Programming,java
+Programming,javascript
+Programming,typescript
+Programming,golang
+Programming,rust
+Programming,ruby
+Programming,php
+Programming,swift
+Programming,kotlin
+Programming,scala
+Programming,bash
+Programming,r
+Data & ML,pandas
+Data & ML,numpy
+Data & ML,scikit-learn
+Data & ML,tensorflow
+Data & ML,pytorch
+Data & ML,opencv
+Data & ML,nlp
+Data & ML,llm
+Data & ML,machine learning
+Data & ML,deep learning
+Data & ML,keras
+Data & ML,matplotlib
+Data & ML,seaborn
+Data & ML,nltk
+Data & ML,spacy
+Data & ML,hugging face
+Data & ML,generative ai
+Data & ML,xgboost
+Data & ML,computer vision
+Databases,sql
+Databases,mysql
+Databases,postgresql
+Databases,mongodb
+Databases,redis
+Databases,cassandra
+Databases,elasticsearch
+Databases,neo4j
+Databases,oracle
+Databases,dynamodb
+Databases,snowflake
+Cloud & DevOps,aws
+Cloud & DevOps,azure
+Cloud & DevOps,gcp
+Cloud & DevOps,docker
+Cloud & DevOps,kubernetes
+Cloud & DevOps,fastapi
+Cloud & DevOps,mlflow
+Cloud & DevOps,git
+Cloud & DevOps,jenkins
+Cloud & DevOps,terraform
+Cloud & DevOps,ansible
+Cloud & DevOps,linux
+Cloud & DevOps,github actions
+Web & App Dev,html
+Web & App Dev,css
+Web & App Dev,reactjs
+Web & App Dev,nodejs
+Web & App Dev,angular
+Web & App Dev,vue
+Web & App Dev,django
+Web & App Dev,flask
+Web & App Dev,spring boot
+Web & App Dev,graphql
+Hardware & Systems,verilog
+Hardware & Systems,vhdl
+Hardware & Systems,microcontrollers
+Hardware & Systems,rtos
+Hardware & Systems,fpga
+Hardware & Systems,pcb design
+Hardware & Systems,matlab
+Hardware & Systems,labview
+Hardware & Systems,embedded c
+Tools,excel
+Tools,power bi
+Tools,tableau
+Tools,jira
+Tools,agile
+Tools,apache kafka
+Tools,apache spark
+Tools,figma

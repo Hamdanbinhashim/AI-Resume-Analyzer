@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+pypdf
+python-docx
+fpdf
+google-genai
+python-dotenv
+langchain-google-genai
+langchain-core
+langchain

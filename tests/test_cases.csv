@@ -1,0 +1,6 @@
+test_id,resume_file,candidate_profile,expected_top_role,actual_top_role,match_score_pct,status,comments
+1,Cybersecurity Analyst Resume.pdf,"Skills: bash, linux, python",Cybersecurity Analyst,Cybersecurity Analyst,54.5%,PASSED,Extracted 3 skills. Top matched role: Cybersecurity Analyst.
+2,Data Scientist Resume.pdf,"Skills: excel, git, machine learning, matplotlib",Data Analyst,Data Analyst,84.6%,PASSED,Extracted 12 skills. Top matched role: Data Analyst.
+3,Full Stack Developer Resume.pdf,"Skills: css, docker, figma, git",Full Stack Developer,Full Stack Developer,86.3%,PASSED,Extracted 13 skills. Top matched role: Full Stack Developer.
+4,Machine Learning Engineer Resume.pdf,"Skills: c, deep learning, docker, fastapi",Machine Learning Engineer,Machine Learning Engineer,61.3%,PASSED,Extracted 15 skills. Top matched role: Machine Learning Engineer.
+5,Software Engineer Resume.pdf,"Skills: agile, c, django, docker",Software Engineer,Software Engineer,56.0%,PASSED,Extracted 13 skills. Top matched role: Software Engineer.
