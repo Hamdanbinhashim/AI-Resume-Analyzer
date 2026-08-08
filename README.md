@@ -19,7 +19,7 @@ An NLP-powered application that evaluates technical resumes against industry job
 
 ## 🏗️ Architecture & Data Flow
 
-```
+```text
                 [Upload Resume PDF / DOCX]
                            |
                            V
@@ -52,7 +52,7 @@ An NLP-powered application that evaluates technical resumes against industry job
 ## 📁 Repository Structure
 
 ```text
-Resume Analyzer/
+AI-Resume-Analyzer/
 │── app.py                       # Streamlit dashboard & tab navigation
 │── resume_parser.py             # PDF & DOCX text extraction
 │── text_cleaner.py              # Regex normalization & token protection
@@ -70,24 +70,29 @@ Resume Analyzer/
 │   ├── job_roles.csv            # Predefined industry job roles & required skills
 │   └── skill_dictionary.csv     # Controlled technical skills taxonomy
 │
-├── sample_resumes/
-│   └── sample_data_analyst.txt  # Sample test resume
+├── sample_resumes/              # Sample PDF resumes for empirical testing
+│   ├── Cybersecurity Analyst Resume.pdf
+│   ├── Data Scientist Resume.pdf
+│   ├── Full Stack Developer Resume.pdf
+│   ├── Machine Learning Engineer Resume.pdf
+│   └── Software Engineer Resume.pdf
 │
 └── tests/
-    └── test_cases.csv           # Testing & evaluation verification sheet
+    └── test_cases.csv           # Empirical testing & evaluation verification sheet
 ```
 
 ---
 
-## ⚙️ Installation & Local Setup
+## ⚙️ Local Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Hamdanbinhashim/AI-Resume-Analyzer
+git clone https://github.com/Hamdanbinhashim/AI-Resume-Analyzer.git
 cd AI-Resume-Analyzer
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies
+
 **On Windows**
 ```bash
 python -m venv .venv
@@ -95,37 +100,49 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-**On Linux/Mac**
+**On Linux / macOS**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Set Up Environment Variables
+### 3. Configure Environment Variables
 Create a `.env` file in the root directory:
 ```env
 GEMINI_API_KEY=your_actual_gemini_api_key_here
 ```
 
-### 4. Run the Streamlit Application
+### 4. Launch Application
 ```bash
 streamlit run app.py
 ```
 
 ---
 
-## 🐳 Docker Deployment
+## 🐳 Docker Deployment & Containerization
 
-To build and run the application using Docker:
+You can containerize and run the application locally or deploy it to Docker hosts (e.g. Render, AWS, GCP, Azure).
 
+### 1. Build Docker Image
 ```bash
-# 1. Build Docker image
-docker build -t resume-analyzer .
-
-# 2. Run Docker container
-docker run -d -p 8501:8501 --env-file .env resume-analyzer
+docker build -t ai-resume-analyzer .
 ```
-Access the application at `http://localhost:8501`.
 
----
+### 2. Run Container with Environment Variables
+```bash
+docker run -d -p 8501:8501 --name ai-resume-analyzer-app --env-file .env ai-resume-analyzer
+```
+Open your browser and navigate to `http://localhost:8501`.
+
+### 3. Container Management Commands
+```bash
+# View container logs
+docker logs -f ai-resume-analyzer-app
+   
+# Stop running container
+docker stop ai-resume-analyzer-app
+
+# Remove container
+docker rm ai-resume-analyzer-app
+```
