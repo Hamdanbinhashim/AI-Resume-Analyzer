@@ -83,8 +83,8 @@ Resume Analyzer/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/resume-analyzer.git
-cd resume-analyzer
+git clone https://github.com/Hamdanbinhashim/AI-Resume-Analyzer
+cd AI-Resume-Analyzer
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies
