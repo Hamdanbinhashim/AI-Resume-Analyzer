@@ -2,9 +2,9 @@
 
 An NLP-powered application that evaluates technical resumes against industry job roles, calculates TF-IDF cosine match scores, identifies skill gaps, generates a personalized 4-week learning roadmap, exports downloadable PDF reports, and provides an interactive **AI Resume Coach Chatbot** using **LangChain**.
 
-**Github Repo :** [https://github.com/Hamdanbinhashim/AI-Resume-Analyzer]
+**Github Repo :** https://github.com/Hamdanbinhashim/AI-Resume-Analyzer
 
-**Streamlit App :** [https://ai-resume-analyzer-hamdan.streamlit.app/]
+**Streamlit App :** https://ai-resume-analyzer-hamdan.streamlit.app
 ---
 
 ## 📌 Features
