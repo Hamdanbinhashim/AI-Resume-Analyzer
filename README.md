@@ -15,7 +15,7 @@ An NLP-powered application that evaluates technical resumes against industry job
 - **Taxonomy Skill Extraction**: Scans text against a controlled dictionary of 80+ technical skills grouped into 7 categories using exact word-boundary regex (`\b`).
 - **TF-IDF & Cosine Match Scoring**: Ranks candidate suitability against industry job roles using `scikit-learn` vectorization and matrix cosine similarity.
 - **Skill Gap Deep Dive**: Displays exact matched strengths and missing skill gaps per target role.
-- **AI 4-Week Learning Roadmap**: Generates a tailored week-by-week learning plan via Google Gemini AI (`gemini-3.5-flash-lite`).
+- **AI 4-Week Learning Roadmap**: Generates a tailored week-by-week learning plan via Google Gemini AI.
 - **PDF Analysis Export**: Renders a formatted PDF analysis report including matched scores, skill gaps, and roadmap using `fpdf`.
 - **LangChain AI Resume Coach Chatbot**: Multi-turn conversational chatbot with full context awareness (resume text, role match, skill gaps, and generated roadmap) using LangChain's LCEL pipeline (`ChatPromptTemplate | ChatGoogleGenerativeAI | StrOutputParser`).
 
