@@ -5,6 +5,7 @@ An NLP-powered application that evaluates technical resumes against industry job
 **Github Repo :** https://github.com/Hamdanbinhashim/AI-Resume-Analyzer
 
 **Streamlit App :** https://ai-resume-analyzer-hamdan.streamlit.app
+
 ---
 
 ## 📌 Features
